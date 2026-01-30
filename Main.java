@@ -29,7 +29,7 @@ void main() throws IOException {
                 ArrayList<Character> secretWord = maskWord.maskWord(word);
 
                 System.out.println("Ваше слово: " + secretWord);
-                System.out.println(word);
+               // System.out.println(word);
                 while (true) {
                     System.out.println("Введите букву: ");
 
