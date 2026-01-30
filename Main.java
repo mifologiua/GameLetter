@@ -35,7 +35,7 @@ void main() throws IOException {
 
                     command = console.nextLine().toLowerCase();
 
-                    if (command.isEmpty()){
+                    if (command.isEmpty() || command.length() > 1){
                         command = console.nextLine().toLowerCase();
                     }
 
